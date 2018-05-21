@@ -30,7 +30,7 @@ public class TestJs {
 
     @AfterMethod
     public void tearDown(){
-//        driver.close();
+       driver.close();
     }
 
     private boolean IsImageVisible(WebDriver driver,WebElement image){
